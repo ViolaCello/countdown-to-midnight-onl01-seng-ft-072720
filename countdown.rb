@@ -5,7 +5,7 @@ def countdown(number)
    puts "#{number} SECOND(S)!"
     number -= 1 
       def countdown_with_sleep(tempo)
-        sleep(tempo.seconds)
+        sleep(tempo.second)
       end
       
   
